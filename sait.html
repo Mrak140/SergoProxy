@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset = "utf-8">
+
+<link rel="stylesheet" href="main.css">
+<title>MyWiki </title>
+<div id="date", date_time()></div>
+<div id="current_date_time_block">
+</div>
+<script src="main.js" defer></script>
+  
+</head>
+<body>
+ <!-- Начало изображения -->
+ <!-- Невидимое поле -->
+ <div class="follow-cursor"> <div class="jopa"></div></div>
+ <div class="box">
+
+    <!-- Круглая голова -->
+    <div class="head">
+
+      <!-- Круглая копия головы -->
+      <div class="head-copy"></div>
+
+       <!-- Левое ухо ~ светло-серое -->
+      <div class="ear-left">
+
+       <!-- Внутреннее ухо ~ тёмно-серое -->
+      <div class="inner-ear"></div>
+      </div>
+
+      <!-- Правое ухо ~ светло-серое -->
+       <div class="ear-right">
+      <!-- Внутреннее ухо ~ Тёмно-серое -->
+        <div class="inner-ear"></div>
+      </div>
+
+      <!-- Левый глаз ~ белый -->
+      <div class="eye-left">
+        <!-- Зрачок ~ чёрный -->
+        <div class="pupil">
+        </div>
+      </div>
+
+      <!-- Правый глаз ~ белый -->
+      <div class="eye-right">
+        <!-- Зрачок ~ чёрный -->
+        <div class="pupil">
+        </div>
+      </div>
+
+       <!-- Нос ~ коричневый -->
+       <div class="nose">
+       </div>
+
+       <!-- Волосы ~ светло-серые -->
+      <div class="hair-left"></div>
+      <div class="hair-right"></div>
+
+    <!-- Конец головы -->
+    </div>
+ <!-- Конец невидимого поля -->
+ </div>
+<div class="kvadr" style="width: 50%; height: 1200px; border:1px solid; margin:auto; background: #FFFFFF; border: 4px;">
+
+<h1 style="margin-top: 10px; text-align: center;"> <mark>Познавательная статья </mark></h1>
+<div id="current_date_time_block">
+</div>
+<div class="textsize">
+<aside> <!-- Сноска справа-->
+<ol>
+<li><a href="https://ru.wikipedia.org/wiki/Зима"> Все о зиме</a></li>
+<li><a href="https://ru.wikipedia.org/w/index.php?search=%D0%9B%D0%B5%D1%82%D0%BE&title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%3A%D0%9F%D0%BE%D0%B8%D1%81%D0%BA&ns0=1"> Все о лете</a></li>
+<li><a href="https://ru.wikipedia.org/w/index.php?search=Осень&title=Служебная%3AПоиск&ns0=1"> Все об осени</a></li>
+<li><a href="https://ru.wikipedia.org/w/index.php?search=%D0%92%D0%B5%D1%81%D0%BD%D0%B0&title=%D0%A1%D0%BB%D1%83%D0%B6%D0%B5%D0%B1%D0%BD%D0%B0%D1%8F%3A%D0%9F%D0%BE%D0%B8%D1%81%D0%BA&ns0=1"> Все о весне</a></li>
+</ol>
+</aside>
+ <article>
+ <!-- Содержание сайта -->
+ <div><h4>Времена года — четыре периода,</h4></div>
+<div><h4>на которые условно поделён годовой цикл.</h4></div>
+<span>Пример работы span</span>
+<span>Предложение не перенеслось на другую строку</span>
+
+ </article>
+ <div class="hidestyle" style="margin-left: 20px;">
+<details>
+ <summary> Времена года </summary> <!-- Сворачиваемый текст -->
+ <ol type="I">
+ <li value="2000"><p>Vesna</p></li>
+ <li><p>Osen</p></li>
+ <li><p>Leto</p></li>
+ <li><p>Zima</p></li>
+ </ol>
+</details>
+</div>
+<br/>
+<figure> <!-- Квадрат картинкой внутри-->
+<p><img src="Vse.jpg" width="120" height="120" alt=""></p>
+    <figcaption>Времена года</figcaption> <!--Подпись картинки-->
+</figure>
+<table style="border: 1px;"> <!--ТАблица-->
+		<tbody>
+		<tr>
+		<th rowspan="3"> Три <br/> ячейки по <br/> вертикали</th>
+		<td colspan="2">Две ячейки по горизонтали</td>
+		</tr>
+		<tr>
+		<td> <button onclick="changeZima();"> Zima </button> </td>
+		<td> <button onclick="changeVesna();"> Vesna </button></td>
+		</tr>
+		<tr>
+		<td> <button onclick="changeLeto();"> Leto </button></td>
+		<td> <button onclick="changeOsen();"> Osen </button></td>
+		</tr>
+		</tbody>
+	</table>
+<form> <!-- Форма-->
+<p>Выберите метод <br> </p>
+<input type="radio" name="variation1" value="a1"> POST <br>
+<input type="radio" name="variation2" value="a2"> GET <br> 
+
+<input class="prosto" type="number" id="points" placeholder="От 0 до 10" name="points" min="0" max="10"> 10
+<input type="submit" value="Отправить"> 
+<input type="reset" value="Сбросить">
+</form>
+<br/>
+<a href="https://animego.org/anime/tokiyskie-mstiteli-1758">Please don't open</a>
+<br/>
+<time datetime="2022-03-11">Дата создания сайта 11 марта</time>
+<br/>
+<select> <!--Пример работы select-->
+<option>1</option>
+<option>2</option>
+</select>
+ <pre> <!--Пример работы pre-->
+	||-----         -----||  
+	||-----|       |-----||
+	|| -----       ------||
+	||- ----|     |------||
+	||---||--     -------||
+	||--|| --|   |-------||
+	|| -|| |--   --- - --||
+	|| -||  --|-|--| - ---|
+	|---||  |-----| |-----|
+	|---||   |----  |-----| 
+	|----|    ---   |-----|
+	|-----          ------| 
+ </pre>
+<br/>
+<br/>
+<a href="#top"> ВВерх </a> <!-- UP -->
+</div>
+</div>
+</body>
+</html>
